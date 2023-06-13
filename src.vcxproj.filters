@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="FortniteGameDevelopment.h" />
+    <ClInclude Include="UE5Helper.h" />
+    <ClInclude Include="GameScannerInternal.h" />
+    <ClInclude Include="GameEngine.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="crt.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="RetAddressHide.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="sencrypt.hpp">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="uencrypt.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRenderFrameWork.h" />
+    <ClInclude Include="Settings.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="CysCaller.h">
+      <Filter>Import</Filter>
+    </ClInclude>
+    <ClInclude Include="NewFramework.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="lazy.hpp" />
+    <ClInclude Include="menu.hpp">
+      <Filter>Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="crt.cpp">
+      <Filter>Import</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Import">
+      <UniqueIdentifier>{a3f979d3-80a9-4c6f-89bf-0f6bcacdeb64}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{19ce86b1-1b11-4cfb-990c-cc084400712a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="RetAddressHide.asm">
+      <Filter>Import</Filter>
+    </MASM>
+    <MASM Include="NtInput.asm">
+      <Filter>Import</Filter>
+    </MASM>
+  </ItemGroup>
+</Project>
